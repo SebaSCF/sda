@@ -5,29 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { font-size: 11px; text-align: center;   font-size: white !important}
+    .attribution a { color: hsl(228, 45%, 44%);   font-size: white !important}
   </style>
 </head>
 <body>
 
-  Get insights that help your business grow.
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
+<div class="card">
+  <div class="text">
+    <h1>Get <span>insights</span> that help your business grow.</h1>
+    <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
+      experience, and overall efficiency.</p>
+      <div class="data">
+        <div class="companies">
+          <h6 class="number">10k+</p>
+          <p class="txt">companies</p>
+        </div>
+        <div class="templates">
+          <h6 class="number">314</p>
+          <p class="txt">templates</p>
+        </div>
+        <div class="queries">
+          <h6 class="number">12m+</h3>
+          <p class="txt">queries</p>
+        </div>
+      </div>
+  </div >
+  <div class="pic">
+    <img src="./images/image-header-desktop.jpg" alt="">
+  </div>
+</div>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Sebastian Cappadonna</a>.
   </div>
 </body>
 </html>

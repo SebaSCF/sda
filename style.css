@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    padding: 150px;
+    border-radius: 80%;
+    border: none;
+    align-content: center;
+    justify-content: center;
+}
+
+.text{
+    background-color: hsl(244, 38%, 16%);
+    padding: 70px;
+    height: 300px;
+}
+
+.text h1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700 !important;
+    margin-bottom: 24px;
+}
+
+.text span{
+    color: hsl(277, 64%, 61%);
+}
+
+.text p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+
+.data h6{
+    font-family: 'Inter', sans-serif;
+    color:  hsl(0, 0%, 100%);
+    font-size: 34px;
+    text-align: left;
+}
+
+.data p{
+    color:  hsla(0, 0%, 100%, 0.6);
+    text-align: left;
+
+}
+
+.pic{
+
+}
+
+.pic img{
+    height: 440px;
+
+}
+
+.data{
+    display: flex;
+}
+
+.companies{
+    flex: 1;
+}
+
+.templates{
+    flex: 1;
+}
+
+.queries{
+    flex: 1;
+}
+.number{
+    padding-top: 54px;
+    font-size: 54px;
+}
+
